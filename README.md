@@ -74,7 +74,7 @@ Password:
  BTEQ -- Enter your SQL request or BTEQ command: 
 CREATE DATABASE atscale AS PERM=10000000000;
 
-CREATE DATABASE DAVAR AS PERM=10000000000;
+CREATE DATABASE atscale AS PERM=10000000000;
 
  *** Database has been created. 
  *** Total elapsed time was 1 second.
