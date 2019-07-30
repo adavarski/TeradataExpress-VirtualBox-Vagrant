@@ -252,19 +252,12 @@ vboxmanage startvm teradata_express_14_10 --type headless
 
 * to connect with bteq and user/pass dbc/dbc:
 
- Teradata BTEQ 13.00.00.03 for WIN32.
-Copyright 1984-2009, Teradata Corporation. ALL RIGHTS RESERVED.
-Enter your logon or BTEQ command:
-.logon dbc
-
 .logon dbc
 Password:
 *** CLI error: MTDP: EM_NOHOST(224): name not in HOSTS file or names database.
 
 *** Return code from CLI is: 224
 *** Error: Logon failed!
-
-I’ve started reading documentation and Internet. And I found solution! 🙂
 
 Add this entry to your hosts file /etc/hosts:
 
