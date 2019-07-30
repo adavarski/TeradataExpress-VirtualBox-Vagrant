@@ -165,7 +165,7 @@ end
 $ vagrant up
 
 ```
-6.7.Test connection from dbeaver: jdbc:teradata://10.50.1.17/DATABASE=davar,DBS_PORT=1025 , user:dbc, password: dbc
+6.7.Test connection from dbeaver: jdbc:teradata://{SERVER_IP}/DATABASE=davar,DBS_PORT=1025 , user:dbc, password: dbc
 
 ### ****NOTE: TDExpress14.10****
 
