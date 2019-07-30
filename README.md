@@ -28,7 +28,7 @@ vboxmanage modifyvm $VM_NAME --natdnshostresolver1 on
 ```
 vboxmanage startvm td_express_16_20 --type headless
 ```
-5.Connect to VM and create atscale database
+5.Connect to VM and create database
 ```
 $ sudo netstat -antpl|grep 2244
 tcp        0      0 0.0.0.0:2244            0.0.0.0:*               LISTEN      9781/VBoxHeadless   
@@ -72,9 +72,9 @@ Password:
  *** Total elapsed time was 1 second.
  
  BTEQ -- Enter your SQL request or BTEQ command: 
-CREATE DATABASE atscale AS PERM=10000000000;
+CREATE DATABASE davar AS PERM=10000000000;
 
-CREATE DATABASE atscale AS PERM=10000000000;
+CREATE DATABASE davar AS PERM=10000000000;
 
  *** Database has been created. 
  *** Total elapsed time was 1 second.
@@ -165,6 +165,7 @@ end
 $ vagrant up
 
 ```
+6.7.Test connection from dbeaver: jdbc:teradata://10.50.1.17/DATABASE=davar,DBS_PORT=1025 , user:dbc, password: dbc
 
 ### ****NOTE: TDExpress14.10****
 
